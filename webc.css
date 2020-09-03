@@ -1,0 +1,178 @@
+.flexproperties{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+
+body {
+	/*background-color: #ccc;*/
+	background: url(http://news.phonesltd.co.uk/wp-content/uploads/apple-company-logo-wallpaper.jpg) no-repeat center center fixed;
+	background-size: cover;
+	-ms-background-size: cover;
+	-o-background-size:cover;
+	-moz-background-size:cover;
+	-webkit-background-size:cover;
+}
+.header {
+	background-color: black;
+	color: #BDBDBD;
+	width: 100%;
+	height: 45px;
+	text-align: center;
+}
+.header button {
+	border-style: none;
+	background-color:black; 
+	color:#BDBDBD;
+	width: 10%;
+	padding-top: 1%;
+	/*margin-left: 2%;*/
+}
+.header i{
+	padding-left: 1%;
+	color: #BDBDBD;
+}
+.header button:hover { 
+	color: white;
+}
+.header i:hover {
+	color: white;
+}
+.header button:focus {
+	outline: none;
+}
+.nav {
+	background-color: #F2F2F2;
+	height: 50px;
+	text-align: center;
+}
+.nav button {
+	border-style: none;
+	text-align: center;
+	padding-top: 1%;
+	width: 10%;
+	color: #A4A4A4;
+	background-color: #F2F2F2;
+}
+.nav button:hover {
+	color: blue;
+}
+.nav button:focus {
+	outline: none;
+}
+.homead video{
+	background-color: black;
+	margin-top: 3%;
+width: 80%;
+height: 400px;
+}
+.homead video:focus {
+	outline:none;
+}
+
+
+
+.iphoneSE {
+	width: 80%;
+	background-color: #8080806b;
+	padding: 2%;
+	margin: 2%;
+	margin-left: 8%;
+	/*padding-top: 5%;*/
+}
+.iphoneSE div{
+	width: 50%;
+}
+.iphoneSE div img{
+	width: 250px;
+	height: 300px;
+}
+.iphoneimage{
+	text-align: right;
+}
+/*page 2 */
+.iphonesead video {
+	background-color: black;
+	width: 80%;
+	height: 350px;
+	margin-top: 3%;
+}
+.iphonesead video:focus {
+	outline: none;
+}
+.matter {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+.main{
+	width: 70%;
+}
+.sub {
+	margin-top: 5%;
+	background-color: #F2F2F2;
+	border-style: solid;
+	border-width: 1px;
+	width:27%;
+}
+/*page 3*/
+.iphone11ad video {
+	background-color: black;
+	width: 80%;
+	height: 350px;
+	margin-top: 3%;
+}
+.iphone11ad video:focus {
+	outline: none;
+}
+/*page 4*/
+.iphone11proad video {
+	background-color: black;
+	width: 80%;
+	height: 350px;
+	margin-top: 2%;
+}
+.iphone11proad video:focus {
+	outline: none;
+}
+
+/*page 5*/
+.iphoneXRad video {
+	background-color: black;
+	width: 80%;
+	height: 350px;
+	margin-top: 3%;
+}
+.iphoneXRad video:focus {
+	outline: none;
+}
+.footer {
+	padding-top: 1%;
+	height: 20px;
+	background-color: black;
+	color: #BDBDBD;
+	text-align: center;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px){
+.iphoneSE{
+	flex-direction: column-reverse;
+}
+.iphoneSE div{
+	width: 100%;
+}
+.iphoneimage{
+	text-align: center;
+}
+.matter {
+	flex-direction: column;
+}
+.matter div {
+	width: 100%;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+	
+}
